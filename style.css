@@ -1,0 +1,85 @@
+*,
+html {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.container {
+  background-color: pink;
+  min-height: 100vh;
+}
+
+/* perbaikan nama class: navbar-container */
+.navbar-container {
+  background-color: rgb(161, 82, 134);
+  width: 100%;
+  height: 10vh;
+}
+
+.ul-navbar {
+  display: flex;
+  height: 100%;
+  justify-content: center;
+  align-items: center;
+  padding: 0;
+  margin: 0;
+}
+
+.li-navbar {
+  border: 2px solid rgb(193, 140, 149);
+  background-color: rgb(254, 167, 186);
+  list-style-type: none;
+  padding: 12px 20px;
+  margin: 10px;
+  color: white;
+  font-size: 18px;
+  border-radius: 6px;
+}
+
+.a-navbar {
+  text-decoration: none;
+  font-weight: bold;
+  color: white;
+}
+
+.li-navbar:hover {
+  background-color: rgb(236, 48, 145);
+  transition: background-color 0.2s;
+}
+
+.container-content {
+  background-color: rgb(254, 167, 186);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 80vh;
+  gap: 16px;
+  padding: 20px;
+  text-align: center;
+}
+
+.img-content {
+  max-width: 70%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.p-content {
+  color: white;
+  font-size: 20px;
+}
+
+.container-footer {
+  height: 10vh;
+  background-color: rgb(222, 135, 182);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1-footer {
+  color: rgb(245, 245, 245);
+  font-size: 20px;
+}
